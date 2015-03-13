@@ -1,10 +1,5 @@
 /*global define*/
-define( [
-	'jquery',
-	'underscore',
-	'qlik',
-	'ng!$q'
-], function ( $, _, qlik, $q ) {
+define( [], function ( ) {
 	'use strict';
 
 	// ****************************************************************************************
