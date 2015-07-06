@@ -1,13 +1,3 @@
-/*global
- define,
- require,
- window,
- console,
- _
- */
-/*jslint    devel:true,
- white: true
- */
 define( [
 		'jquery',
 		'underscore',

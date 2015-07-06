@@ -32,14 +32,6 @@
 
 These external libraries are used within this solution. Many thanks to the authors!
 
-**Library 1**
-* Name:
-* License:
-* Url:
-* Author:
-
-**Library 2**
-* Name:
-* License:
-* Url:
-* Author:
+**CSS Styles**
+* Url: http://codepen.io/anon/pen/NPXbwe?editors=110
+* Author: Pete Lada of Guidebook (http://petelada.com)

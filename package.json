@@ -1,0 +1,38 @@
+{
+  "name": "sense-on-off-switch",
+  "description": "Set a variable in Qlik Sense to true/false using an on-off switch.",
+  "version": "0.2.0",
+  "homepage": "https://github.com/stefanwalther/sense-on-off-switch",
+  "author": {
+    "name": "Stefan Walther",
+    "url": "http://qliksite.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefanwalther/sense-on-off-switch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stefanwalther/sense-on-off-switch/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/stefanwalther/sense-on-off-switch/blob/master/LICENSE.md"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "verb": "git://github.com/verbose/verb"
+  },
+  "keywords": [
+    "qliksense",
+    "qlik sense",
+    "variables",
+    "qliksense-visualization-extension",
+    "extension"
+  ]
+}

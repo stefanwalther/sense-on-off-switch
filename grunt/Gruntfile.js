@@ -57,7 +57,7 @@ module.exports = function ( grunt ) {
 
 	// Cleanup
 	addTask( devTasks, 'clean:dev' );
-	addTask( devTasks, 'cleanempty:all' );
+	addTask( devTasks, 'cleanempty' );
 
 	// Deploy to Qlik Sense Desktop
 	addTask( devTasks, 'clean:empty_desktop', process.platform === 'win32' );
@@ -75,7 +75,7 @@ module.exports = function ( grunt ) {
 	var releaseTasks = [];
 
 	// Clean 'dist' and copy all relevant files to 'dist'
-	addTask( releaseTasks, 'clean:empty_dist' );
+	addTask( releaseTasks, 'clean:empty_dist_release' );
 	addTask( releaseTasks, 'copy:copy_to_dist_release' );
 
 	// Replacements
@@ -86,7 +86,7 @@ module.exports = function ( grunt ) {
 
 	// Cleanup
 	addTask( releaseTasks, 'clean:release' );
-	addTask( releaseTasks, 'cleanempty:all' );
+	addTask( releaseTasks, 'cleanempty' );
 
 	// Optimization & Uglification
 	addTask( releaseTasks, 'uglify:release' );

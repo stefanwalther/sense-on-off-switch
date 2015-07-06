@@ -2,7 +2,7 @@
   "generator-qsextension": {
     "advancedMode": true,
     "extensionName": "On Off Switch",
-    "extensionNameSafe": "OnOffSwitch",
+    "extensionNameSafe": "On-Off-Switch",
     "extensionType": "extension",
     "extensionNamespace": "swr-",
     "extensionDescription": "Set a variable to true/false by using this On/Off switch.",
