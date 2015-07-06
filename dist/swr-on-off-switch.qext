@@ -1,9 +1,0 @@
-{
-	"name" : "On Off Switch",
-	"description" : "Set a variable to true/false by using this On/Off switch.",
-	"icon" : "extension",
-	"type" : "visualization",
-	"version": "0.1",
-	"preview" : "bar",
-	"author": "Stefan Walther"
-}
