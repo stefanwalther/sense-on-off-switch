@@ -7,6 +7,7 @@
 * [Screenshot](#screenshot)
 * [Installation](#installation)
 * [Usage](#usage)
+* [Tested with](#tested-with)
 * [Related projects](#related-projects)
 * [Contributing](#contributing)
 * [Author](#author)
@@ -65,14 +66,29 @@ whereas
 
 If the user switches the on-off switch to false the variable value will be set to `0`, otherwise to `1`.
 
+## Tested with
+
+**Qlik Sense**
+
+* Qlik Sense Server 2.0.1
+* Qlik Sense Desktop 2.0.1
+
+**Browser**
+
+* Chrome (latest version as of 2015-07-07)
+
+If you experience any issues with other versions of Qlik Sense and/or browsers, [please create an issue](https://github.com/stefanwalther/sense-on-off-switch/issues) and let me know.
+
 ## Related projects
 
-* [qsmediabox](https://github.com/stefanwalther/qsMediaBox): Include web pages, videos, images and much more into your Qlik Sense app.
+* [qliksense-extension-tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial): Comprehensive tutorial for Qlik Sense Extensions.
+* [sense-media-box](https://github.com/stefanwalther/sense-media-box): Include web pages, videos, images and much more into your Qlik Sense app.
 * [sense-themable-kpi-tile](https://github.com/stefanwalther/sense-themable-kpi-tile): KPI Tile for Qlik Sense with the ability to use themes or to customize background… [more](https://github.com/stefanwalther/sense-themable-kpi-tile)
 
 ## Contributing
 
-Contributing to this project is welcome. The process to do so is outlined below:
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/stefanwalther/sense-on-off-switch/issues).
+The process for contributing is outlined below:
 
 1. Create a fork of the project
 2. Work on whatever bug or feature you wish

@@ -51,8 +51,7 @@ module.exports = function ( grunt ) {
 					dest: '../dist/'
 				}
 			]
-		}
-		,
+		},
 		dev: {
 			options: {
 				patterns: [
@@ -60,8 +59,7 @@ module.exports = function ( grunt ) {
 						json: grunt.file.readYAML( 'gruntReplacements_dev.yml' )
 					}
 				]
-			}
-			,
+			},
 			files: [
 				{
 					expand: true,

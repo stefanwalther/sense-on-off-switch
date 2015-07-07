@@ -9,26 +9,19 @@ module.exports = function ( grunt ) {
 	return {
 
 		options: {
-			mangle: ('<%= projectconfig.release.uglify.mangle%>' === 'true'),
-			beautify: ('<%= projectconfig.release.uglify.beautify%>' === 'true'),
-			preserveComments: ('<%= projectconfig.release.uglify.preserveComments%>' === 'true'),
+			mangle: '<%= projectconfig.release.uglify.mangle%>',
+			beautify: '<%= projectconfig.release.uglify.beautify%>',
+			preserveComments: '<%= projectconfig.release.uglify.preserveComments%>',
 			compress: {
-				drop_console: ('<%= projectconfig.release.uglify.drop_console%>' === 'true')
+				drop_console: '<%= projectconfig.release.uglify.drop_console%>'
 			}
 		},
 		release: {
 			files: [
 				{
-					src: ['../dist/<%= projectconfig.general.ExtensionNamespace %><%= projectconfig.general.ExtensionNameSafe%>.js'],
-					dest: '../dist/<%= projectconfig.general.ExtensionNamespace %><%= projectconfig.general.ExtensionNameSafe%>.js'
-				},
-				{
-					src: ['../dist/properties.js'],
-					dest: '../dist/properties.js'
-				},
-				{
-					src: ['../dist/initialproperties.js'],
-					dest: '../dist/initialproperties.js'
+					src: ['./../dist/**/*.js', '!./../dist/**/*.min.js'],
+					dest: './../dist/',
+					expand: true
 				}
 			]
 		}

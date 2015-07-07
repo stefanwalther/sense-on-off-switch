@@ -35,7 +35,7 @@ module.exports = function ( grunt ) {
 				'../dist_dev/**/*'
 			]
 		},
-		empty_dist_release: {
+		empty_dist: {
 			options: {
 				force: true
 			},

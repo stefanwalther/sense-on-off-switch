@@ -55,9 +55,8 @@ define( [
 					}
 					if ( numTries > 0 ) {
 						console.info( 'try it again' );
+						angular.noop();
 					}
-
-					//console.log( 'varName', varName );
 
 					app.variable.getContent( varName )
 						.then( function ( reply ) {
@@ -74,11 +73,11 @@ define( [
 				$scope.$watch( 'isSelected', function ( newVal, oldVal ) {
 					console.log( 'SELECTED: ', newVal + ' (old=>' + oldVal + ')' );
 					if ( newVal !== null && newVal !== oldVal ) {
-						console.log( '--variable values has changed, send it to the engine' );
+						//console.log( '--variable values has changed, send it to the engine' );
 						app.variable.setContent( varName, '=(' + (newVal === true ? 1 : 0) + ')' )
 							.then( function ( reply ) {
 								angular.noop();
-								console.log( 'after setting var value', reply );
+								//console.log( 'after setting var value', reply );
 							} )
 							.catch( function ( reply ) {
 								console.error( 'error setting value', reply );
