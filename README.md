@@ -81,6 +81,8 @@ If you experience any issues with other versions of Qlik Sense and/or browsers, 
 
 ## Related projects
 
+Some other Qlik Sense Visualization Extensions recently published:
+
 * [qliksense-extension-tutorial](https://github.com/stefanwalther/qliksense-extension-tutorial): Comprehensive tutorial for Qlik Sense Extensions.
 * [sense-media-box](https://github.com/stefanwalther/sense-media-box): Include web pages, videos, images and much more into your Qlik Sense app.
 * [sense-themable-kpi-tile](https://github.com/stefanwalther/sense-themable-kpi-tile): KPI Tile for Qlik Sense with the ability to use themes or to customize background… [more](https://github.com/stefanwalther/sense-themable-kpi-tile)
