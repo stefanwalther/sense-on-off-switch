@@ -1,8 +1,8 @@
 # sense-on-off-switch
 
-> Set a variable in Qlik Sense to true/false using an on-off switch.
-
 [![](http://branch-badge.herokuapp.com/)](http://branch-badge.herokuapp.com/)
+
+> Set a variable in Qlik Sense to true/false using an on-off switch.
 
 <!-- toc -->
 
