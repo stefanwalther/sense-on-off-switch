@@ -3,7 +3,7 @@
 	"description" : "Set a variable to true/false by using this On/Off switch.",
 	"icon" : "extension",
 	"type" : "visualization",
-	"version": "@pkg.version",
+	"version": "@@pkg.version",
 	"preview" : "bar",
 	"author": "Stefan Walther",
 	"preview": "swr-on-off-switch.png"
