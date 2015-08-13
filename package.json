@@ -1,7 +1,7 @@
 {
   "name": "sense-on-off-switch",
   "description": "Set a variable in Qlik Sense to true/false using an on-off switch.",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "homepage": "https://github.com/stefanwalther/sense-on-off-switch",
   "author": {
     "name": "Stefan Walther",

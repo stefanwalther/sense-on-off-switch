@@ -6,7 +6,7 @@ define( [
 		'./properties',
 		'./initialproperties',
 		'./lib/js/extensionUtils',
-		'text!./lib/css/style.css',
+		'text!./lib/css/main.css',
 		'text!./lib/partials/template.ng.html'
 	],
 	function ( $, _, angular, qlik, props, initProps, extensionUtils, cssContent, ngTemplate ) {
