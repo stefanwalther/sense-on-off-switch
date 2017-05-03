@@ -1,5 +1,7 @@
 # On/Off Switch for Qlik Sense
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stefanwalther/sense-on-off-switch.svg)](https://greenkeeper.io/)
+
 > Set a variable in Qlik Sense to true/false using an on-off switch.
 
 [![](http://serve.mod.bz/branch/)](https://github.com/stefanwalther/sense-on-off-switch)
