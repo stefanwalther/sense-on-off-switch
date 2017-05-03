@@ -25,7 +25,7 @@
   "dependencies": {},
   "devDependencies": {
     "gulp": "git://github.com/gulpjs/gulp#4.0",
-    "sense-go": "^0.5.1",
+    "sense-go": "^0.12.2",
     "verb": "git://github.com/verbose/verb"
   },
   "keywords": [
